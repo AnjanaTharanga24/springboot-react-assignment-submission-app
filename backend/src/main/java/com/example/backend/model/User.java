@@ -2,7 +2,6 @@ package com.example.backend.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import org.hibernate.sql.ast.tree.update.Assignment;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -18,7 +17,7 @@ public class User {
     private LocalDate cohortStartDate;
     private String username;
     private String password;
-//    private List<Assignment> assignments = new ArrayList<>();
+    
 
 
 }
